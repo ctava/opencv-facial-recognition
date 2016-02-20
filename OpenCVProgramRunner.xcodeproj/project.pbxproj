@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D07A0F91C5E5E3C00A28F72 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07A0F81C5E5E3C00A28F72 /* libc++.tbd */; };
+		0D07A1321C5FE58800A28F72 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07A1311C5FE58800A28F72 /* opencv2.framework */; };
+		0D07A14F1C60037D00A28F72 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D07A1481C60037D00A28F72 /* main.cpp */; };
+		0DE882991C78F7230014C127 /* detectobjects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DE882981C78F7230014C127 /* detectobjects.cpp */; };
+		0DE8829F1C78F9250014C127 /* facerecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8829D1C78F9250014C127 /* facerecognizer.cpp */; };
+		0DE882A31C79048D0014C127 /* face.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0DE882A01C79048D0014C127 /* face.xml */; };
+		0DE882A41C79048D0014C127 /* lefteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0DE882A11C79048D0014C127 /* lefteye.xml */; };
+		0DE882A51C79048D0014C127 /* righteye.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0DE882A21C79048D0014C127 /* righteye.xml */; };
+		0DE882B71C7916A10014C127 /* faceprepreprocessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DE882B51C7916A10014C127 /* faceprepreprocessor.cpp */; };
+		0DE882BC1C79194D0014C127 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DE882BA1C79194D0014C127 /* 1.jpg */; };
+		0DE882BD1C79194D0014C127 /* 99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0DE882BB1C79194D0014C127 /* 99.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DCD05F2E16C558F100010EE8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D07A0F81C5E5E3C00A28F72 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		0D07A1311C5FE58800A28F72 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		0D07A1481C60037D00A28F72 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0DE882971C78F7230014C127 /* detectobjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detectobjects.h; sourceTree = "<group>"; };
+		0DE882981C78F7230014C127 /* detectobjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = detectobjects.cpp; sourceTree = "<group>"; };
+		0DE8829D1C78F9250014C127 /* facerecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = facerecognizer.cpp; sourceTree = "<group>"; };
+		0DE8829E1C78F9250014C127 /* facerecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facerecognizer.h; sourceTree = "<group>"; };
+		0DE882A01C79048D0014C127 /* face.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = face.xml; sourceTree = "<group>"; };
+		0DE882A11C79048D0014C127 /* lefteye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = lefteye.xml; sourceTree = "<group>"; };
+		0DE882A21C79048D0014C127 /* righteye.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = righteye.xml; sourceTree = "<group>"; };
+		0DE882B51C7916A10014C127 /* faceprepreprocessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = faceprepreprocessor.cpp; sourceTree = "<group>"; };
+		0DE882B61C7916A10014C127 /* faceprepreprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceprepreprocessor.h; sourceTree = "<group>"; };
+		0DE882BA1C79194D0014C127 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		0DE882BB1C79194D0014C127 /* 99.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 99.jpg; sourceTree = "<group>"; };
+		DCD05F3016C558F100010EE8 /* OpenCVProgramRunner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenCVProgramRunner; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD05F2D16C558F100010EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D07A0F91C5E5E3C00A28F72 /* libc++.tbd in Frameworks */,
+				0D07A1321C5FE58800A28F72 /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD05F2516C558F100010EE8 = {
+			isa = PBXGroup;
+			children = (
+				0DE882BA1C79194D0014C127 /* 1.jpg */,
+				0DE882BB1C79194D0014C127 /* 99.jpg */,
+				0D07A1481C60037D00A28F72 /* main.cpp */,
+				0DE882B61C7916A10014C127 /* faceprepreprocessor.h */,
+				0DE882B51C7916A10014C127 /* faceprepreprocessor.cpp */,
+				0DE8829E1C78F9250014C127 /* facerecognizer.h */,
+				0DE8829D1C78F9250014C127 /* facerecognizer.cpp */,
+				0DE882971C78F7230014C127 /* detectobjects.h */,
+				0DE882981C78F7230014C127 /* detectobjects.cpp */,
+				0DE882A01C79048D0014C127 /* face.xml */,
+				0DE882A11C79048D0014C127 /* lefteye.xml */,
+				0DE882A21C79048D0014C127 /* righteye.xml */,
+				0D07A1311C5FE58800A28F72 /* opencv2.framework */,
+				0D07A0F81C5E5E3C00A28F72 /* libc++.tbd */,
+				DCD05F3116C558F100010EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD05F3116C558F100010EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD05F3016C558F100010EE8 /* OpenCVProgramRunner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD05F2F16C558F100010EE8 /* OpenCVProgramRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD05F3A16C558F100010EE8 /* Build configuration list for PBXNativeTarget "OpenCVProgramRunner" */;
+			buildPhases = (
+				DCD05F2C16C558F100010EE8 /* Sources */,
+				DCD05F2D16C558F100010EE8 /* Frameworks */,
+				DCD05F2E16C558F100010EE8 /* CopyFiles */,
+				DC0DF52A16D5049F00DB6BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVProgramRunner;
+			productName = Cartoonify;
+			productReference = DCD05F3016C558F100010EE8 /* OpenCVProgramRunner */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD05F2716C558F100010EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Christopher Tava";
+			};
+			buildConfigurationList = DCD05F2A16C558F100010EE8 /* Build configuration list for PBXProject "OpenCVProgramRunner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCD05F2516C558F100010EE8;
+			productRefGroup = DCD05F3116C558F100010EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD05F2F16C558F100010EE8 /* OpenCVProgramRunner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0DF52A16D5049F00DB6BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE882BD1C79194D0014C127 /* 99.jpg in Resources */,
+				0DE882A51C79048D0014C127 /* righteye.xml in Resources */,
+				0DE882BC1C79194D0014C127 /* 1.jpg in Resources */,
+				0DE882A41C79048D0014C127 /* lefteye.xml in Resources */,
+				0DE882A31C79048D0014C127 /* face.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD05F2C16C558F100010EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D07A14F1C60037D00A28F72 /* main.cpp in Sources */,
+				0DE882B71C7916A10014C127 /* faceprepreprocessor.cpp in Sources */,
+				0DE8829F1C78F9250014C127 /* facerecognizer.cpp in Sources */,
+				0DE882991C78F7230014C127 /* detectobjects.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCD05F3816C558F100010EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DCD05F3916C558F100010EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DCD05F3B16C558F100010EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/opencv2.framework/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OpenCVProgramRunner;
+			};
+			name = Debug;
+		};
+		DCD05F3C16C558F100010EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/opencv2.framework/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = OpenCVProgramRunner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD05F2A16C558F100010EE8 /* Build configuration list for PBXProject "OpenCVProgramRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD05F3816C558F100010EE8 /* Debug */,
+				DCD05F3916C558F100010EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD05F3A16C558F100010EE8 /* Build configuration list for PBXNativeTarget "OpenCVProgramRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD05F3B16C558F100010EE8 /* Debug */,
+				DCD05F3C16C558F100010EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD05F2716C558F100010EE8 /* Project object */;
+}
