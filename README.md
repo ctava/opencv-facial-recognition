@@ -11,9 +11,11 @@ You should see the following output:
   Compiled with OpenCV version 3.1.0
 
   preprocessFacesAndSaveModel 
+  
   Finished training.
 
   loadModelAndRecognizeFace 
+  
   Predicted identity = 1.
 
   Program ended with exit code: 0
